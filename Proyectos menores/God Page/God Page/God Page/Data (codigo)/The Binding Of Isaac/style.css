@@ -1,0 +1,57 @@
+body {
+    background: radial-gradient(circle, #fffc5f, #000000), rgb(137, 157, 11);
+}
+
+.superbody {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos de arriba hacia abajo */
+    align-items: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 20px;
+}
+
+.contenedor {
+    display: flex; /* Usamos flexbox para organizar los cuadros horizontalmente */
+    gap: 20px; /* Espacio entre los elementos */
+    justify-content: center; /* Centra los elementos en el contenedor */
+}
+
+.critica {
+    width: 1200px; /* Ancho del cuadrado */
+    height: 500px; /* Alto del cuadrado */
+    color: white; /* Color del texto */
+    display: flex; /* Usamos flexbox para centrar el texto dentro de los cuadros */
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items:baseline; /* Centra el texto verticalmente */
+    font-size: 20px; /* Tamaño de la fuente */
+}
+
+.Video {
+    width: 500px; /* Ancho del cuadrado Video */
+    height: 500px; /* Alto del cuadrado Video */
+    padding-right: 32%;
+    padding-left: 25%;
+}
+
+.Juego {
+    background-color: #fffc5f;
+    width: 250px;
+    height: 100px;
+    color: rgb(137, 157, 11);
+    border-radius: 15px;
+}
+
+.imagenes {
+    float: right;
+    display: flex;
+    flex-direction: column;;
+    gap: 10px;
+}
+
+.descarga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 200px;
+}

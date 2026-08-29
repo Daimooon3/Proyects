@@ -1,0 +1,6 @@
+Valores de prioridad:
+Inactivo: 64
+Por debajo de lo normal: 16384
+Normal: 32
+Por encima de lo normal: 32768
+Alta prioridad: 128

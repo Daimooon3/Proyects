@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+                         INSTRUCCIONES DEL BOOSTER
+-------------------------------------------------------------------------------
+1. Abrir el archivo y seleccionar la opcion "Optimizador"
+
+2. Despues se mostrara los procesos que estan siendo ejecutados por tu computadora, se recomienda cerrar
+navegadores o aplicaciones que no necesiten el juego o programa para ejecutarse (debes escribir el nombre del
+proceso que quieres cerrar junto con la extension ".exe"
+
+3. Se detendran procesos innecesarios
+
+4. Seleccionar el nombre del juego. Se recomiendo ir a los archivos del juego, buscar el ejecutable y copiarlo al
+programa despues añadir la extension ".exe" y tocar enter
+
+5. Esperar a que el programa busque tu juego o programa
+
+6. Seleccionar la prioridad del juego. Mientras mas prioridad al juego o programa la computadora utilizara mas
+recursos para su juego o programa quitandole prioridad al sistema operativo y servicios en segundo plano, lo que
+puede causar problemas y/o en algunos casos pantallazos azules o crasheos del OS
+
+Fin.

@@ -1,0 +1,32 @@
+.titulo {
+    padding: 20%;
+    color: rgb(255, 211, 0);
+    opacity: 1;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+    mix-blend-mode: overlay;
+}
+
+body {
+    background-color: grey;
+}
+
+.boton {
+    background-color: grey;
+    color: rgb(255, 221, 0);
+    align-items: center;
+    padding-left: 47%;
+}
+
+.texto {
+    color: rgb(118, 148, 213);
+    font-family: 'Times New Roman', Times, serif;
+}

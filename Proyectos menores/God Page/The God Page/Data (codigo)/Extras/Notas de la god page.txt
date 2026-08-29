@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="superbody">
+        <!-- Elemento .imagenP que estará arriba de los otros -->
+        <div class="imagenP">
+            <img src="KOyL1d.png" width="1240" height="300" alt="">
+        </div>
+        
+
+            <div class="Video">
+                <video width="600" height="400" autoplay controls>
+                    <source src="">
+                    Your browser does not support the video tag.
+                  </video>
+            </div>
+            </div>
+        </div>
+    </div>
+            <div class="contenedor">
+            <div class="critica">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, sit corporis exercitationem facilis delectus enim ea voluptatem possimus sed dicta consequatur. Ratione at ex voluptates dolor, delectus consequuntur commodi! Consequatur.
+            </div>
+
+<br><br><br><br><br><br><br><br>
+
+<div class="imagenes">
+    <img src="" width="650px" height="400px" alt="">
+    <img src="" width="650px" height="400px" alt="">
+</div>
+
+<!-- Mueve este div FUERA de .imagenes -->
+<div class="descarga">
+    <a href="">
+        <button class="Juego"><h1> Juego </h1></button>
+    </a>
+</div>
+
+</body>
+</html>
+
+
+CSS:
+
+.superbody {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos de arriba hacia abajo */
+    align-items: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 20px;
+}
+
+.contenedor {
+    display: flex; /* Usamos flexbox para organizar los cuadros horizontalmente */
+    gap: 20px; /* Espacio entre los elementos */
+    justify-content: center; /* Centra los elementos en el contenedor */
+}
+
+.critica {
+    width: 1200px; /* Ancho del cuadrado */
+    height: 500px; /* Alto del cuadrado */
+    color: white; /* Color del texto */
+    display: flex; /* Usamos flexbox para centrar el texto dentro de los cuadros */
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items:baseline; /* Centra el texto verticalmente */
+    font-size: 20px; /* Tamaño de la fuente */
+    padding: 10px; /* Un pequeño espacio dentro del cuadrado */
+}
+
+.Video {
+    width: 500px; /* Ancho del cuadrado Video */
+    height: 500px; /* Alto del cuadrado Video */
+    padding-right: 32%;
+    padding-left: 25%;
+}
+
+.Juego {
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    height: 150px;
+    color: rgb(234, 128, 22);
+    border-radius: 15px;
+}
+
+.imagenes {
+    float: right;
+    display: flex;
+    flex-direction: column;;
+    gap: 20px
+}
+
+.descarga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
